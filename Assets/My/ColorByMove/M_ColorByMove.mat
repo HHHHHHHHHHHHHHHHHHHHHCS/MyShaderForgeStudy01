@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: M_TextureMixed
-  m_Shader: {fileID: 4800000, guid: 31ece78a8400f114b962af3fc9248a37, type: 3}
+  m_Name: M_ColorByMove
+  m_Shader: {fileID: 4800000, guid: e4f05ea9158422b408a0d0729b97be78, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
