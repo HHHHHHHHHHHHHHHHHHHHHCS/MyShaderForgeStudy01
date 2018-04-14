@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: b8d9a9f80d7457843869f20626712fe4
-timeCreated: 1523684515
+guid: 4e5c1cd007bf7604a88c3d32447640ea
+timeCreated: 1523686083
 licenseType: Pro
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _MainTexture: {fileID: 2800000, guid: b66bceaf0cc0ace4e9bdc92f14bba709, type: 3}
   - _NormalMap: {fileID: 2800000, guid: bbab0a6f7bae9cf42bf057d8ee2755f6, type: 3}
+  - _MainTexture: {fileID: 2800000, guid: b66bceaf0cc0ace4e9bdc92f14bba709, type: 3}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
