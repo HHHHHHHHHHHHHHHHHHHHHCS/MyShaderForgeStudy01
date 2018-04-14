@@ -36,8 +36,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _FresnelIntensity: 3
-    - _InIntensity: 10
+    - _InIntensity: 5.88
     - _node_273: 10
+    - _node_5085: 3.76
     m_Colors:
     - _FresnelColor: {r: 0.74264705, g: 0.15835857, b: 0.15835857, a: 1}
     - _MainColor: {r: 1, g: 0, b: 0, a: 1}
+    - _node_3527: {r: 0, g: 1, b: 0.08965516, a: 1}
