@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 622866c1be19d0d4dadb4f7fa2c90f79
+timeCreated: 1523961395
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTexure: {fileID: 2800000, guid: aa762ee7680f35f4fb9a9210fa94ce61, type: 3}
+  - _HightLightTexture: {fileID: 2800000, guid: 6a985dfcd1d3ca94e9753748ed65c697,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
