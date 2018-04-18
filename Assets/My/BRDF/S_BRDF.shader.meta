@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: e94323fde0962604d902b7a43edbb9a7
+timeCreated: 1524065489
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _BRDF_Texture: {fileID: 2800000, guid: 6453c7fd60012fe42b4b68c10ba451df, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
