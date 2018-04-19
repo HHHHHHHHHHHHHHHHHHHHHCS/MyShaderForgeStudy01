@@ -50,6 +50,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: e958c6041cfe445e987c73751e8d4082, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -62,8 +66,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: d97533a3ae000c74e9189e8f6a4be215, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _node_3174:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _node_5563:
         m_Texture: {fileID: 2800000, guid: 6453c7fd60012fe42b4b68c10ba451df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8925:
+        m_Texture: {fileID: 2800000, guid: e958c6041cfe445e987c73751e8d4082, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _node_9137:
@@ -75,10 +87,11 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _FloatIntensity: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HSpped: 0
+    - _HSpped: 1
     - _HighLightPower: 5
     - _Metallic: 0
     - _Mode: 0
@@ -91,6 +104,9 @@ Material:
     - _U_Pos_Slider: 1
     - _VSpeed: 1
     - _ZWrite: 1
+    - _node_6505: 0
+    - _node_8470: -0.5
+    - _node_9068: 0.4
     - _node_9616: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
