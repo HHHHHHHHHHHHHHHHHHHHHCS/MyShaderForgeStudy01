@@ -69,12 +69,13 @@ Material:
     m_Floats:
     - _FresnelIntensity: 3
     - _InIntensity: 5.88
+    - _Outline: 0
     - _node_273: 10
     - _node_5085: 3.76
     - _node_7106: 0.034
     m_Colors:
     - _FresnelColor: {r: 0.74264705, g: 0.15835857, b: 0.15835857, a: 1}
-    - _MainColor: {r: 0, g: 2, b: 2, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 0, a: 1}
     - _SecondColor: {r: 22, g: 2, b: 0, a: 1}
     - _node_2032: {r: 0, g: 1, b: 1, a: 1}
     - _node_3527: {r: 0, g: 1, b: 0.08965516, a: 1}
