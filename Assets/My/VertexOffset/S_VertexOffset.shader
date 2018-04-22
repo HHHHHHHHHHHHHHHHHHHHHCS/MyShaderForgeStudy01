@@ -58,8 +58,8 @@ Shader "HCS/VertexOffset" {
                 float isFrontFace = ( facing >= 0 ? 1 : 0 );
                 float faceSign = ( facing >= 0 ? 1 : -1 );
 ////// Lighting:
-                float4 node_3339 = _Time;
-                float node_3079_ang = node_3339.g;
+                float4 node_5582 = _Time;
+                float node_3079_ang = node_5582.g;
                 float node_3079_spd = _RotatorSpeed;
                 float node_3079_cos = cos(node_3079_spd*node_3079_ang);
                 float node_3079_sin = sin(node_3079_spd*node_3079_ang);
@@ -67,8 +67,7 @@ Shader "HCS/VertexOffset" {
                 float2 node_2208 = (i.uv0*2.0+-1.0);
                 float2 node_3793 = node_2208.rg;
                 float node_4561 = atan2(node_3793.g,node_3793.r);
-                float2 node_774 = float2(node_4561,node_4561);
-                float2 node_3079 = (mul(node_774-node_3079_piv,float2x2( node_3079_cos, -node_3079_sin, node_3079_sin, node_3079_cos))+node_3079_piv);
+                float2 node_3079 = (mul(float2(node_4561,node_4561)-node_3079_piv,float2x2( node_3079_cos, -node_3079_sin, node_3079_sin, node_3079_cos))+node_3079_piv);
                 float4 node_8271 = tex2D(_MainTexture,TRANSFORM_TEX(node_3079, _MainTexture));
                 float4 _MainTexure_copy = tex2D(_MainTexture,TRANSFORM_TEX(node_3079, _MainTexture));
                 float3 finalColor = (_MainColor.rgb*node_8271.rgb*_MainTexure_copy.rgb);
