@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: M_VertexOffset
+  m_Name: M_ScreenEffect
   m_Shader: {fileID: 4800000, guid: 9cf6c460777493a47aeea5066ec324fa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
